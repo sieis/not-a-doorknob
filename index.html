@@ -327,18 +327,8 @@
     height: 108px;
     border-radius: 50%;
     margin: 0 auto 18px;
-    background: linear-gradient(140deg, #FF6B6B 0%, var(--red) 55%, #A81212 100%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    font-weight: 800;
-    font-size: 1.4rem;
-    letter-spacing: -0.02em;
     box-shadow: 0 8px 20px rgba(255, 39, 39, 0.3);
     border: 3px solid var(--card);
-    outline: 2px dashed rgba(255, 39, 39, 0.35);
-    outline-offset: 4px;
     overflow: hidden;
   }
 
@@ -359,11 +349,6 @@
     color: var(--red-dark);
     font-weight: 600;
     margin-bottom: 12px;
-  }
-
-  .host-bio {
-    font-size: 0.88rem;
-    color: var(--text-muted);
   }
 
   /* ---------- Episodes ---------- */
@@ -618,7 +603,6 @@
     .platforms { grid-template-columns: 1fr; }
     .steps { grid-template-columns: 1fr; text-align: left; }
     .stat { min-width: 45%; border-right: none; border-bottom: 1px solid var(--border); }
-    .stat:nth-child(2n) { border-right: none; }
   }
 </style>
 </head>
@@ -664,10 +648,6 @@
           <div class="stat-num">12</div>
           <div class="stat-label">Steps of Action</div>
         </div>
-        <div class="stat">
-          <div class="stat-num">2</div>
-          <div class="stat-label">Guys Reading Aloud</div>
-        </div>
       </div>
     </div>
   </section>
@@ -680,26 +660,22 @@
         <h2>A chapter-by-chapter walk through the program of action.</h2>
         <p><strong>Not a Doorknob</strong> is a 27-part reading and discussion of the Big Book of Alcoholics Anonymous. Episode by episode, we work through the first seven chapters — the chapters that lay out the program of action through the 12 Steps.</p>
         <p>This isn't a lecture. It's two guys reading the text out loud and talking honestly about what it means, what it's meant for us, and how it plays out in real life — sharing our own experience, strength, and hope along the way.</p>
-        <p>Whether you're new to the program, working the steps again, or just curious what the book actually says, pull up a chair.</p>
+        <p>Whether you're new to the program, working the steps again, or just curious what the book actually says, we hope you'll find this useful.</p>
       </div>
       <div class="hosts">
         <div class="host-card">
-          <div class="headshot" aria-label="Headshot placeholder for Eamonn Cottrell">
-            <!-- Replace with: <img src="eamonn.jpg" alt="Eamonn Cottrell"> -->
-            EC
+          <div class="headshot">
+            <img src="images/eamonn.png" alt="Eamonn Cottrell">
           </div>
           <div class="host-name">Eamonn Cottrell</div>
           <div class="host-role">Co-Host</div>
-          <div class="host-bio">Reads, discusses, and shares his experience, strength, and hope every episode.</div>
         </div>
         <div class="host-card">
-          <div class="headshot" aria-label="Headshot placeholder for John Brower">
-            <!-- Replace with: <img src="john.jpg" alt="John Brower"> -->
-            JB
+          <div class="headshot">
+            <img src="images/john.jpg" alt="John Brower">
           </div>
           <div class="host-name">John Brower</div>
           <div class="host-role">Co-Host</div>
-          <div class="host-bio">Brings the questions, the pushback, and the perspective from his own path through the steps.</div>
         </div>
       </div>
     </div>
@@ -710,7 +686,7 @@
     <div class="section-head">
       <div class="section-tag">Start Here</div>
       <h2>The first three episodes</h2>
-      <p>Jump right in — no sign-up, no app. Just press play.</p>
+      <p>Best listened to in order, but feel free to jump in at any episode.</p>
     </div>
     <div class="episodes-grid">
       <article class="episode-card">
@@ -745,7 +721,7 @@
       </article>
     </div>
     <div class="episodes-more">
-      <a href="https://studio.youtube.com/playlist/PLN1KjXbaB8hJ96imi8uouWT-OZAcg01hb/videos" target="_blank" rel="noopener" class="btn btn-secondary">See All 27 Episodes on YouTube →</a>
+      <a href="https://www.youtube.com/playlist?list=PLN1KjXbaB8hJ96imi8uouWT-OZAcg01hb" target="_blank" rel="noopener" class="btn btn-secondary">See All 27 Episodes on YouTube →</a>
     </div>
   </section>
 
@@ -754,7 +730,7 @@
     <div class="section-head">
       <div class="section-tag">Listen &amp; Watch</div>
       <h2>Find us on your platform of choice</h2>
-      <p>New episodes drop as we work through the book. Subscribe so you don't miss one.</p>
+      <p>Episodes available wherever you get your podcasts</p>
     </div>
     <div class="platforms">
       <div class="platform-card">
@@ -763,7 +739,7 @@
         </div>
         <div class="platform-name">YouTube</div>
         <div class="platform-status live">Live now</div>
-        <a href="https://studio.youtube.com/playlist/PLN1KjXbaB8hJ96imi8uouWT-OZAcg01hb/videos" target="_blank" rel="noopener" class="platform-link active">Watch the Playlist</a>
+        <a href="https://www.youtube.com/playlist?list=PLN1KjXbaB8hJ96imi8uouWT-OZAcg01hb" target="_blank" rel="noopener" class="platform-link active">Watch the Playlist</a>
       </div>
       <div class="platform-card">
         <div class="platform-icon icon-apple">
@@ -784,14 +760,14 @@
     </div>
   </section>
 
-  <!-- Steps CTA -->
+  <!-- Progress and Perfection CTA -->
   <section>
     <div class="steps">
       <div>
-        <h3>Working through all Twelve Steps, one chapter at a time.</h3>
-        <p>From "There Is A Solution" through "A Vision For You," we're covering the program of action as written — plainly, honestly, and out loud.</p>
+        <h3>Keep the reflection going every day with Progress and Perfection.</h3>
+        <p>A recovery-themed, Christian-flavored daily reflection — 365 days of experience, strength, and hope to go with your morning coffee.</p>
       </div>
-      <a href="#episodes" class="btn btn-primary">Start With Episode 1</a>
+      <a href="https://www.progressandperfection.com/subscribe" target="_blank" rel="noopener" class="btn btn-primary">Subscribe to Progress and Perfection</a>
     </div>
   </section>
 
@@ -807,8 +783,14 @@
       <p class="footer-note">A reading and discussion of the Big Book of Alcoholics Anonymous with Eamonn Cottrell and John Brower.</p>
     </div>
     <div class="footer-social">
-      <a href="https://studio.youtube.com/playlist/PLN1KjXbaB8hJ96imi8uouWT-OZAcg01hb/videos" target="_blank" rel="noopener" aria-label="YouTube">
+      <a href="https://www.youtube.com/playlist?list=PLN1KjXbaB8hJ96imi8uouWT-OZAcg01hb" target="_blank" rel="noopener" aria-label="YouTube">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31.6 31.6 0 0 0 0 12a31.6 31.6 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31.6 31.6 0 0 0 24 12a31.6 31.6 0 0 0-.5-5.8ZM9.6 15.5V8.5L15.8 12Z"/></svg>
+      </a>
+      <a href="https://x.com/EamonnCottrell" target="_blank" rel="noopener" aria-label="X">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18.9 2h3.3l-7.3 8.3L23.4 22h-6.8l-5.3-6.9L5 22H1.7l7.8-8.9L1 2h6.9l4.8 6.3Zm-1.2 18h1.8L7.3 4h-1.9Z"/></svg>
+      </a>
+      <a href="https://www.linkedin.com/in/eamonncottrell/" target="_blank" rel="noopener" aria-label="LinkedIn">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.03-1.85-3.03-1.86 0-2.14 1.45-2.14 2.94v5.66H9.34V9h3.42v1.56h.05c.48-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM3.56 20.45h3.56V9H3.56Z"/></svg>
       </a>
     </div>
   </div>
